@@ -1,6 +1,7 @@
 namespace MapeamentoDtos.Pedidos;
 
-// Objetos aninhados e coleções: cada tipo sabe mapear o seu pedaço.
+// Objetos aninhados e coleções:
+// cada tipo sabe mapear o seu pedaço.
 public static class PedidoMapeamentos
 {
     public static ItemPedido ParaDominio(this CriarItemDto dto)

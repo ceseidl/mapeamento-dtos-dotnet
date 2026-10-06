@@ -1,7 +1,8 @@
 namespace MapeamentoDtos.Clientes;
 
 // Entidade (mutável, por clareza) que garante as invariantes:
-// nome obrigatório e e-mail válido. Os valores são normalizados aqui.
+// nome obrigatório e e-mail válido.
+// Os valores também são normalizados aqui.
 public sealed class Cliente
 {
     public Guid Id { get; private set; } = Guid.NewGuid();

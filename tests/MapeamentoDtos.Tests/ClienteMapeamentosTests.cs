@@ -48,7 +48,8 @@ public class ClienteMapeamentosTests
     {
         var cliente = Cliente.Criar("Ana", "ana@mail.com");
 
-        cliente.Aplicar(new AtualizarClienteDto("Ana Souza", null));
+        cliente.Aplicar(
+            new AtualizarClienteDto("Ana Souza", null));
 
         Assert.Equal("Ana Souza", cliente.Nome);
         Assert.Equal("ana@mail.com", cliente.Email);
