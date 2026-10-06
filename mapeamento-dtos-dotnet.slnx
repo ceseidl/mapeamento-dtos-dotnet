@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MapeamentoDtos/MapeamentoDtos.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MapeamentoDtos.Tests/MapeamentoDtos.Tests.csproj" />
+  </Folder>
+</Solution>
