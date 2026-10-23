@@ -1,5 +1,7 @@
 # Manual DTO Mapping in .NET
 
+Full article: <https://ceseidl.com.br/en/artigos/mapear-dtos-manualmente/>
+
 English | [Português](README.pt-BR.md)
 
 [![CI](https://github.com/ceseidl/mapeamento-dtos-dotnet/actions/workflows/ci.yml/badge.svg)](https://github.com/ceseidl/mapeamento-dtos-dotnet/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
